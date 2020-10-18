@@ -1,0 +1,231 @@
+body {
+    background-color: #dcdcdc;
+}
+
+.outerdiv{
+    display: flex;
+    flex-direction: column;
+    width: 93%;
+    height: 100%;
+    position: absolute;
+    background-color: #091126;
+    margin: 130px 40px 0px 40px;
+    
+}
+/*Main */
+.container{   
+    margin: -50px 60px;
+    width: 90%;
+    height: 100%;
+    background:white;
+}
+
+/*navidagion bar*/
+    .bg-img {
+        background-image: url("img/banners/4.png");  
+        height: 100%; 
+        width: 100%;  
+        background-position: center;
+        background-size: cover;
+        
+    }
+    
+    /* placing a container for the navbar inside the image */
+    .navcontainer {
+        position: absolute;
+        border-bottom: thin;
+        margin: 20px;
+        width: 90%;
+    }
+    
+    /* The navbar */
+    .navbar {
+        
+        overflow: hidden;
+      }
+      
+      .navbar a {
+        float: left;
+        font-size: 14px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+      }
+      
+      .dropdown {
+        float: left;
+        color: white;
+        overflow: hidden;
+        padding-left: 10px;
+        text-transform: uppercase;
+      }
+    
+      .dropdown .dropbtn {
+        font-size: 14px;  
+        border: none;
+        outline: none;
+        color: white;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+        text-transform: uppercase;
+      }
+      
+      .navbar a:hover, .dropdown:hover .dropbtn {
+        text-decoration : underline ;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        font-size: 14px;
+        background-color: rgba(93, 109, 126, 0.2);
+        color: white;
+        max-width: 160px;
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        float: none;
+        color: white;
+        padding: 3px 10px;
+        font-size: 15px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+      
+      .dropdown-content a:hover {
+        background-color: none;
+        text-decoration: underline;
+      }
+      
+      .dropdown:hover .dropdown-content {
+            display: block;
+      }
+
+      .btncontact{
+          float: right;
+          height: 40px;
+          background-color:  transparent;
+          color: white;
+          margin-right: 40px;
+          text-transform: uppercase;
+          border: solid 1px;
+          border-color: white;
+      }
+
+      .innerdiv{
+        height: fit-content;
+        width: 35%;
+        margin-top: 230px;
+        margin-right: 80px;
+        float: right;        
+        text-align: right;
+        color: white;
+        font-size: 34px;
+      }
+
+  /*manage statistics*/
+  .manageStatistics{      
+      margin: -30px 50px;
+      width: 90%;
+      height: 50%;
+      background:#091126;
+  }
+
+  /*Content section*/
+  .maincontainer1{
+    margin-left:70px;
+		margin-right:70px;
+		margin-top:20px;
+  }
+
+  .container1 {
+    margin-top: 100px;
+		width:50%;
+		float:left;
+	}
+	
+	.container2 {
+    margin-top: 100px;
+		width:50%;
+		float:right;
+  }
+  
+  .subcontainer1 {
+		width: 100%;
+		float:left;
+	}
+	
+	.subcontainer2 {
+		width: 100%;
+		float:right;		
+  }
+
+  .imgbox{
+    width: 100%;
+    cursor: pointer;
+    opacity: 0.6; 
+    background-color: gray;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .imgbox1{
+    margin-right: 10%;
+		margin-bottom:10%;		 
+  }
+
+  .imgbox2{
+    margin-left: 10%;
+		margin-bottom:10%;
+		height: 150px;
+  }
+  .imgbox:hover{
+    opacity: .3;
+  }
+  .imgtopic{
+    text-transform: uppercase; 
+    padding: 40px;  
+    font-weight: bold;
+    color: black;   
+  }
+
+  .btnViewmore{
+    border: solid red 3px;
+    border-radius: 5px;    
+    background-color: transparent;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    text-align: center;    
+    margin-left: 40px;
+  }
+
+  .imgtext{
+    position: relative;
+		color: black;
+    font-weight: bold;
+    opacity: 0.7;
+    height: 200px; 
+    width: 1200px;
+    text-align: center;		
+  }
+footer{
+  bottom: 0%;
+  background-color: #091126;
+  color: white;
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  padding: 20px;
+}
+
+.logo{
+  float: left;
+  height: 100px;
+  width: 100px;
+  align-items: center; 
+  margin: 20px;
+}
